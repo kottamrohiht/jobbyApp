@@ -1,0 +1,30 @@
+.list-skills-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .list-skills-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+  }
+}
+
+.skillsImg {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.skillName {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
